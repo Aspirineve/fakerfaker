@@ -355,16 +355,17 @@ margin-bottom:30px;
 transform: scale(1.1);
 }
 .team-wrapper .team-inner {
-background-size: cover;
+background-size: contain;
 background-position: center;
--moz-background-size: cover;
--webkit-background-size: cover;
-padding: 150px 0 10px;
+-moz-background-size: contain;
+-webkit-background-size: contain;
+padding: 200px 0 10px;
 /*background-image: url('../img/girl-big.jpg');*/
 border-top: 1px solid #fff;
 border-right: 1px solid #fff;
 border-left: 1px solid #fff;
 border-radius: 10px 10px 0px 0px;
+background-repeat: no-repeat;
 }
 
 .team-wrapper > .team-inner > a {
